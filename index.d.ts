@@ -214,6 +214,14 @@ declare module "react-native-image-crop-picker" {
         cropperNavigationBarLight?: boolean;
 
         /**
+         * When cropping image, determines the color of Toolbar.
+         *
+         * @platform Android only
+         * @default '#424242'
+         */
+        cropperToolbarColor?: string;
+
+        /**
          * When cropping image, determines the color of Toolbar text and buttons.
          *
          * @platform Android only
